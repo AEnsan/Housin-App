@@ -1,0 +1,121 @@
+.main-header-left{
+
+float:left;
+margin-left:10px;
+}
+
+.main-header-right{
+float:right;
+margin-right:15px;
+}
+
+.main-header-left-left{
+
+float:left;}
+
+.main-header-left-right{
+float:left;}
+
+.main-header-right-child{
+	float:left;
+	margin:5px;
+}
+
+.inline-nav{
+float:left;
+}
+
+.main-header-right nav ul{
+    height:30px;
+    line-height:30px;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.main-header{
+    height:60px;
+    background-color:rgb(144, 185, 204);
+    margin-bottom:10px;
+}
+
+nav.inline-nav ul li {
+  
+    float:left;
+    margin-right:5px;
+    margin-left:5px;
+ color:white
+
+
+}
+a{
+text-decoration:none;
+}
+
+.main-header-left-left{
+  margin:10px;
+}
+
+.main-header-left-right{
+  margin:8px;
+}
+
+.row{
+    width: 95%;
+    max-width:1000px;
+    margin:auto;
+padding-bottom:20px;
+    padding-top:20px;
+    overflow: auto;
+}
+
+
+
+.col{
+        float:left;
+        margin: 0 3% 0 0;
+    }
+
+.selectWrapper{
+  border-radius:36px;
+  display:inline-block;
+  overflow:hidden;
+  background:#cccccc;
+  border:1px solid #cccccc;
+}
+.selectBox{
+  width:100px;
+  height:20px;
+  border:0px;
+  outline:none;
+}
+
+
+.main-col{
+        float:left;
+        margin: 0 1% 0 0;
+	height:300px;
+	width:45%;
+    }
+
+a:hover{
+    color: rgb(228, 70, 70);
+}
+
+ a.c22:hover{
+    color: rgb(228, 70, 70);
+}
+
+/* 
+@media only screen and (max-width: 600px){
+.col{float:none;}
+.main-col{
+    width:100%;
+}
+.row{
+    width:95%;
+}
+.jumbotron{
+    height:250px;
+}
+}
+*/
